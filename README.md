@@ -19,14 +19,6 @@ Canonical engineering curricula, skill trees, and domain mastery guides:
 * **`Andrew_Ng_AI_Engineering_Skills_Map.md`**: Comprehensive AI engineering skill tree.
 * **`ML_Guide.ipynb`**: Machine learning practical guide and implementation workbook.
 
-### 2. 🤖 [`Antigravity/`](Antigravity/)
-Specifications, protocols, and prompts for the Antigravity AI pair programming engine:
-* **`Specifications/`**:
-  * `01_Antigravity_Productivity_and_Mastery.ipynb`
-  * `02_God_Level_AI_ML_Teacher_Specification.md`
-  * `03_AGY_CLI_Slash_Commands_&_Failure_Modes.md`
-  * `04_GenNotes_Deep_Learning_Study_Specification.md`
-* **`Rules_Backup/`**: Agent prompt rules and persona backups.
 
 ### 3. 🛠️ [`Scripts/`](Scripts/)
 Unified automation suite, media downloaders, and dataset converters:
