@@ -6,15 +6,7 @@ Centralized automation suite for coursework ingestion, media downloads, format c
 
 ## 📂 Catalog of Tools
 
-### 1. 🤖 AI Model Downloaders (`AI_Downloader/`)
-* **[`qwen3.8_downloader.py`](qwen3.8_downloader.py)**:
-  * Downloads and caches quantized Qwen 3.8B weights locally with resume support.
-  * **Usage:**
-    ```bash
-    python3 qwen3.8_downloader.py
-    ```
-
-### 2. 📺 YouTube & Media Ingestion (`YouTube_Ingestion/`)
+### 1. 📺 YouTube & Media Ingestion (`YouTube_Ingestion/`)
 * **[`yt_downloader_cli.py`](yt_downloader_cli.py)**:
   * High-speed CLI downloader for lecture videos, audio tracks, and playlists via `yt-dlp`.
   * **Usage:**
