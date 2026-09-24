@@ -6,3 +6,16 @@
 backups/P4_Health_Tracker_backup_09-35-12_08-09-2026.tgz
 *.tgz
 *.tar.gz
+
+# Python virtual environments & bytecode
+.venv
+.venv/
+venv
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+site/
+.docs/
+

@@ -1,1 +1,1 @@
-../README.md
+../LEGACY_NOTES_README.md

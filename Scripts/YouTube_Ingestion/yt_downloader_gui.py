@@ -19,9 +19,17 @@ def get_default_music_dir() -> Path:
 
 
 def get_node_runtime() -> dict:
-    node_bin = shutil.which("node") or shutil.which("nodejs") or str(Path.home() / "SE/Notes/.venv/bin/node")
-    if node_bin and (os.path.exists(node_bin) or shutil.which(node_bin)):
-        return {"node": {"path": node_bin}}
+    """Finds the available Node.js binary to handle YouTube n-sig / cipher execution."""
+    candidates = [
+        shutil.which("node"),
+        shutil.which("nodejs"),
+        str(Path.home() / "SE/Library/.venv/bin/node"),
+        str(Path.home() / "SE/Projects/.venv/bin/node"),
+        str(Path.home() / "SE/Notes/.venv/bin/node"),
+    ]
+    for candidate in candidates:
+        if candidate and (os.path.exists(candidate) or shutil.which(candidate)):
+            return {"node": {"path": candidate}}
     return {}
 
 
